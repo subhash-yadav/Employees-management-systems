@@ -1,5 +1,24 @@
-body,html,*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html, * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #C3D8FB;
+  font-variation-settings:
+    "wght" 400,
+    "wdth" 100;
+}
+::selection {
+  background-color: lightgray;
+  color: green;
+}
+
+::-moz-selection {
+  background-color: lightgray;
+  color: green;
 }
